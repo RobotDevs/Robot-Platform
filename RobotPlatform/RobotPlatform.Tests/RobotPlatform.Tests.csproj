@@ -92,9 +92,9 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\RobotPlatform\RobotPlatform.csproj">
+    <ProjectReference Include="..\RobotPlatform\RobotPlatform.web.csproj">
       <Project>{B8DF7A71-7944-46C9-A212-1BA575F2997B}</Project>
-      <Name>RobotPlatform</Name>
+      <Name>RobotPlatform.web</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
